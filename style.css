@@ -1,4 +1,4 @@
-/* style.css – Basic style for Matteo Sadun Bordoni's academic website */
+/* style.css – Updated style for Matteo Sadun Bordoni's academic website */
 
 body {
   font-family: Georgia, serif;
@@ -12,7 +12,6 @@ body {
 
 h1, h2, h3 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: white;
 }
 
 h1 {
@@ -79,28 +78,39 @@ strong {
 }
 
 .hero {
-    position: relative;
-    height: 400px;
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-  
- .overlay {
-  background-color: rgba(0, 0, 0, 0.25); /* less dark */
-  padding: 1.5rem;
-  border-radius: 0.5rem;
- }
-  
-  .profile-pic-hero {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    border: 3px solid white;
-  }
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  box-sizing: border-box;
+  color: white;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.overlay {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.profile-pic-hero {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin: 0 2rem;
+}
+
+.hero h1, .hero h2, .hero p {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
