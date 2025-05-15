@@ -1,4 +1,4 @@
-/* style.css – Updated style for Matteo Sadun Bordoni's academic website */
+/* style.css – Updated for full-width hero and footer contact */
 
 body {
   font-family: Georgia, serif;
@@ -45,7 +45,6 @@ li {
 
 header, footer {
   text-align: center;
-  margin-top: 2rem;
   font-size: 0.9rem;
   color: #666;
 }
@@ -78,8 +77,9 @@ strong {
 }
 
 .hero {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   position: relative;
-  width: 100%;
   height: 100vh;
   background-image: url('background.jpg');
   background-size: cover;
@@ -90,16 +90,12 @@ strong {
   padding: 3rem;
   box-sizing: border-box;
   color: white;
+  gap: 3rem;
 }
 
 .hero-text {
-  max-width: 50%;
-}
-
-.overlay {
-  background-color: transparent;
-  padding: 0;
-  border-radius: 0;
+  max-width: 600px;
+  text-align: left;
 }
 
 .profile-pic-hero {
@@ -107,7 +103,7 @@ strong {
   height: 220px;
   border-radius: 50%;
   border: 4px solid white;
-  margin: 0 2rem;
+  object-fit: cover;
 }
 
 .hero h1, .hero h2, .hero p {
