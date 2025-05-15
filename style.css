@@ -1,0 +1,79 @@
+/* style.css – Basic style for Matteo Sadun Bordoni's academic website */
+
+body {
+  font-family: Georgia, serif;
+  color: #222;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #003366;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+img.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: #111;
+}
